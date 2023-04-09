@@ -1,0 +1,71 @@
+h2{
+    color:blue;
+    text-decoration:underline;
+    color: green;
+}
+p{
+    color: orange;
+    font-size: 20px;
+    /*font-weight: bold;*/
+}
+.main-text{
+    color: darkred;
+}
+#first-p{
+    color: aquamarine;
+}
+#second-p{
+    color: chartreuse;
+}
+*{
+    background-color: white;
+}
+p[id]{
+    font-weight: bolder;
+}
+a[href]{
+    color: brown;
+}
+a[href="Assests/doc/xml.doc"]{
+    color: hotpink;
+}
+a[href$=".pdf"]{
+    color: darkorchid;
+}
+a[href^="http"]{
+    color: greenyellow;
+}
+a[href*="image"]{
+    color: darkgray;
+}
+input[type="text"]{
+    background-color: aqua;
+}
+ul{
+    color: red;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: green;
+}
+li:nth-child(2){
+    color: mediumpurple;
+}
+.sub-p{
+    color: darkcyan;
+}
+.sub-w{
+    font-weight: bold;
+}
+.box{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 100%;
+}
+.box:hover{
+    background-color: yellow;
+}
